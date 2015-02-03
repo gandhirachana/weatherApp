@@ -1,0 +1,193 @@
+{
+  "cod": "200",
+  "message": 0.0961,
+  "city": {
+    "id": 524901,
+    "name": "Moscow",
+    "coord": {
+      "lon": 37.615555,
+      "lat": 55.75222
+    },
+    "country": "RU",
+    "population": 1000000
+  },
+  "cnt": 7,
+  "list": [
+    {
+      "dt": 1422781200,
+      "temp": {
+        "day": 26.72,
+        "min": 268.28,
+        "max": 268.72,
+        "night": 268.28,
+        "eve": 268.72,
+        "morn": 268.72
+      },
+      "pressure": 910.32,
+      "humidity": 6,
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 23.48,
+      "deg": 165,
+      "clouds": 33,
+      "rain": 0.73,
+      "snow": 0.26
+    },
+    {
+      "dt": 1422867600,
+      "temp": {
+        "day": 271.59,
+        "min": 266.33,
+        "max": 275.59,
+        "night": 266.33,
+        "eve": 271.84,
+        "morn": 274.55
+      },
+      "pressure": 97.43,
+      "humidity": 93,
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 6.63,
+      "deg": 338,
+      "clouds": 92,
+      "snow": 1
+    },
+    {
+      "dt": 1422954000,
+      "temp": {
+        "day": 279.71,
+        "min": 268.11,
+        "max": 271.72,
+        "night": 268.76,
+        "eve": 270.2,
+        "morn": 269.88
+      },
+      "pressure": 99.1,
+      "humidity": 90,
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 3,
+      "deg": 42,
+      "clouds": 92,
+      "snow": 0.75
+    },
+    {
+      "dt": 1423040400,
+      "temp": {
+        "day": 262.68,
+        "min": 267.68,
+        "max": 269.89,
+        "night": 269.89,
+        "eve": 269.47,
+        "morn": 268.3
+      },
+      "pressure": 996.62,
+      "humidity": 99,
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 5,
+      "deg": 22,
+      "clouds": 88,
+      "snow": 2.5
+    },
+    {
+      "dt": 1423126800,
+      "temp": {
+        "day": 26.66,
+        "min": 265.43,
+        "max": 269.97,
+        "night": 265.43,
+        "eve": 267.79,
+        "morn": 269.97
+      },
+      "pressure": 100.53,
+      "humidity": 9,
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 6.91,
+      "deg": 336,
+      "clouds": 88,
+      "snow": 1
+    },
+    {
+      "dt": 1423213200,
+      "temp": {
+        "day": 268.45,
+        "min": 262.63,
+        "max": 264.64,
+        "night": 264.64,
+        "eve": 262.63,
+        "morn": 262.71
+      },
+      "pressure": 101,
+      "humidity": 78,
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "speed":7,
+      "deg": 281,
+      "clouds": 81,
+      "snow": 1.28
+    },
+    {
+      "dt": 1423299600,
+      "temp": {
+        "day": 279.27,
+        "min": 266.73,
+        "max": 273.27,
+        "night": 266.73,
+        "eve": 271.1,
+        "morn": 270.19
+      },
+      "pressure": 100.96,
+      "humidity": 89,
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 98,
+      "deg": 342,
+      "clouds": 95,
+      "snow": 2.26
+    }
+  ]
+}

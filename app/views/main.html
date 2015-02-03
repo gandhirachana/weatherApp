@@ -1,0 +1,41 @@
+
+  <!--<div class="col-md-3">Column1</div>
+  <div class="col-md-9">Column2</div>-->
+
+    <div class="col-md-3 ">
+      <nav class="sidebar-nav navbar-default sidebar" role="navigation">
+        <ul ng-repeat="config in kpiConfigs" class="nav in">
+
+          <li class="nav"  ng-click="activateKpi($index)">
+            <a ng-class="{active: active($index)}"><h4 class="text-center">{{config.title}}</h4></a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+
+<div class="chart-container col-md-offset-3">
+  <h2 class="text-center">Weather Dashboard</h2>
+  <div id="past-chart">
+    <h4>History</h4>
+    <div datepicker start-date="startDate" end-date="endDate" class="pull-right"></div>
+    <!-- Graph Container -->
+    <div class="graph-container">
+      <div line-chart data0="data0" data1="data1" options="lineChartOptions"></div>
+    </div>
+
+  </div>
+  <div id="forecast-chart">
+    <h4>Next 7 Days Forecast</h4>
+    <div class="graph-container">
+      <div line-chart data0="forecastData0" data1="forecastData1" options="forecastOptions"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

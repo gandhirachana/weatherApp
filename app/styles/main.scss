@@ -1,0 +1,256 @@
+// bower:scss
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.dashboard {
+  margin: 25px 70px;
+  border: 1px solid #bbb;
+  padding: 0;
+  position: relative;
+  background-color: #DFDFDF;
+
+}
+.line-color-1 {
+  fill: none;
+  stroke: #569bbe;
+  stroke-width: 4px;
+}
+.x-axis{
+  fill: none;
+  stroke-width:1px;
+  stroke: #000000;
+  shape-rendering: crispEdges;
+}
+.y-axis{
+  fill:none;
+  stroke-width:1px;
+  stroke: #000000;
+  shape-rendering: crispEdges;
+}
+.line-color-2 {
+  fill: none;
+  stroke: #6CB33F;
+  stroke-width: 4px;
+}
+
+circle {
+  stroke: #569bbe;
+  stroke-width: 4px;
+  fill: #fff;
+}
+.lines text{
+
+  font-size: 1.2em;
+}
+.label0{
+  fill:#569bbe;
+}
+.label1{
+  fill:#6CB33F;
+}
+.y-axis .tick, .x-axis .tick {
+  font-size: 0.8em;
+  color: #333;
+}
+
+.area {
+  fill: #d8eff7;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "\25B2";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "\25B6";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+.graph-label {
+  color: red;
+}
+
+.metrics-list {
+  padding: 0;
+  &.col-md-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.metric {
+  position: relative;
+  display: block;
+  background: #f4f4f4;
+  margin: 3px 0 0;
+  padding-top: 10px;
+  height: 55px;
+  color: #444;
+  text-decoration: none;
+  box-shadow: -2px 0 2px #ccc inset;
+
+
+  &:hover {
+    text-decoration: none;
+    color: #444;
+    background: #f8f8f8;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &.active {
+    background: #fff;
+    box-shadow: none;
+    &:hover {
+      box-shadow:none;
+    }
+
+  }
+
+  h4 {
+    font-size: 0.9em;
+    color: #888;
+    font-weight: bold;
+    margin: 0 15px;
+  }
+
+
+
+} // @end .metric
+
+
+
+/* -- Graph Container --*/
+
+.graph-container {
+  padding: 0 15px;
+  width: 100%;
+  clear: both;
+
+  &.four-rows {
+    height: 150px;
+  }
+
+  &.five-rows {
+    height: 210px;
+  }
+} // @end .graph-container
+
+.chart-container{
+  background-color: #ffffff;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
